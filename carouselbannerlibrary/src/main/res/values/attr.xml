@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CarouselBanner">
+        <attr name="carousel_interval" format="integer" />
+        <attr name="carousel_showIndicator" format="boolean" />
+        <attr name="carousel_indicatorSelected" format="color|reference" />
+        <attr name="carousel_indicatorUnselected" format="color|reference" />
+        <attr name="carousel_indicatorSize" format="dimension|reference" />
+        <attr name="carousel_indicatorSpace" format="dimension|reference" />
+        <attr name="carousel_indicatorMargin" format="dimension|reference" />
+        <attr name="carousel_autoPlaying" format="boolean" />
+        <attr name="carousel_indicatorGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

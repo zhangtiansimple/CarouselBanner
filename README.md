@@ -19,7 +19,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation ''com.github.zhangtiansimple:CarouselBanner:1.0.0'
+    implementation 'com.github.zhangtiansimple:CarouselBanner:1.0.0'
 }
 ```
 
